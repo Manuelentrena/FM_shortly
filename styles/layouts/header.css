@@ -1,0 +1,16 @@
+.\[\]header {
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: var(--c-bg-header-bg);
+  padding-top: 6rem;
+  padding-bottom: 4rem;
+}
+
+@media screen and (max-width: 768px) {
+  .\[\]header {
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+  }
+}

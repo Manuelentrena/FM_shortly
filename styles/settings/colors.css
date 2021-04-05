@@ -1,0 +1,77 @@
+:root {
+  /* COLORS */
+
+  /* Primarios */
+  --Cyan: #2acfcf;
+  --Cyan-light: #6edada;
+  --Dark-Violet: #3b3054; /* FONDO */
+  /* Secundarios */
+  --Red: #f46262;
+  /* Neutrales */
+  --white: #ffffff;
+  --Gray: #bfbfbf; /* FONDO OSCURO */
+  --Grayish-Violet: #9e9aa7; /* LETRRAS */
+  --Very-Dark-Blue: #35323e; /* LETRAS */
+  --Very-Dark-Violet: #232127; /* FOOTER */
+
+  /* HEADINGS */
+
+  --c-h1: var(--Very-Dark-Blue);
+  --c-h2: var(--Very-Dark-Blue);
+  --c-h3: var(--Very-Dark-Blue);
+  --c-h4: var(--Very-Dark-Blue);
+  --c-p: var(--Grayish-Violet);
+
+  /* ---COMPONENTES--- */
+
+  /* LAYOUT */
+  --c-bg-body: var(--Gray);
+  --c-bg-hero: var(--white);
+
+  /* HEADER */
+  --c-bg-header-bg: var(--white);
+  --c-text-nav-header: var(--Grayish-Violet);
+  --c-text-nav-header-hover: var(--Very-Dark-Blue);
+
+  /* BUTTON PRIMARY */
+  --c-bg-button-primary: var(--Cyan);
+  --c-bg-button-primary-hover: var(--Cyan-light);
+  --c-text-button-primary: var(--white);
+  --c-text-button-primary-hover: var(--white);
+
+  /* BUTTON SECONDARY */
+  --c-bg-button-secondary: var(--Cyan);
+  --c-bg-button-secondary-hover: var(--Cyan-light);
+  --c-bg-button-secondary-copied: var(--Very-Dark-Blue);
+  --c-text-button-secondary: var(--white);
+  --c-text-button-secondary-hover: var(--white);
+
+  /* IMPUT SHORT */
+  --c-bg-input: var(--white);
+  --c-text-input: var(--Grayish-Violet);
+  --c-text-error-input: var(--Red);
+  --c-border-error-input: var(--Red);
+  --c-message-error: var(--Red);
+
+  /* LINK */
+  --bg-link: var(--white);
+  --c-text-link-large: var(--Very-Dark-Blue);
+  --c-text-link-short: var(--Cyan);
+
+  /* SERVICES */
+  --c-bg-services: var(--Gray);
+  --c-square-services: var(--Cyan);
+  --c-circle-services: var(--Dark-Violet);
+
+  /* BANNER */
+  --c-title-banner: var(--white);
+  --c-bg-banner: var(--Dark-Violet);
+
+  /* FOOTER */
+  --c-bg-footer: var(--Very-Dark-Violet);
+  --c-header-footer: var(--white);
+  --c-link-footer: var(--Grayish-Violet);
+  --c-link-footer-hover: var(--Cyan);
+  --c-icon-footer: var(--white);
+  --c-icon-footer-hover: var(--Cyan);
+}

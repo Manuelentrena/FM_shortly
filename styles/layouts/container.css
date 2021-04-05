@@ -1,0 +1,25 @@
+.\#container {
+  padding-left: 20rem;
+  padding-right: 20rem;
+}
+
+@media screen and (max-width: 1440px) {
+  .\#container {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .\#container {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .\#container {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+}

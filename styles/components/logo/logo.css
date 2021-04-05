@@ -1,0 +1,12 @@
+.logo {
+  width: 16rem;
+  height: 4.5rem;
+}
+
+.logo--header {
+  margin-right: 2rem;
+}
+
+.logo:hover {
+  cursor: pointer;
+}

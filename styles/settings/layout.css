@@ -1,0 +1,12 @@
+:root {
+  /* spacing */
+  --spacing-auto: auto;
+  --spacing-vs: 0.31em;
+  --spacing-s: 0.62rem;
+  --spacing-m: 1.25rem;
+  --spacing-l: 2.5rem;
+  --spacing-vl: 5rem;
+  --spacing-xl: 10rem;
+  --spacing-xxl: 20rem;
+  --spacing-xxxl: 40rem;
+}

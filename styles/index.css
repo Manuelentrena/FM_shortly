@@ -1,0 +1,34 @@
+/* Settings */
+@import "../styles/settings/typography.css";
+@import "../styles/settings/layout.css";
+@import "../styles/settings/colors.css";
+@import "../styles/settings/fonts.css";
+
+/* Global */
+@import "../styles/global/box-sizing.css";
+@import "../styles/global/normalize.css";
+
+/* Theme */
+@import "../styles/theme/headings.css";
+@import "../styles/theme/body.css";
+
+/* Layouts */
+@import "../styles/layouts/header.css";
+@import "../styles/layouts/container.css";
+/* @import "../styles/layouts/principal.css"; */
+
+/* Container */
+@import "../styles/container/nav/nav.css";
+@import "../styles/container/register/register.css";
+
+/* Components */
+@import "../styles/components/button/button.css";
+@import "../styles/components/logo/logo.css";
+@import "../styles/components/nav/nav.css";
+@import "../styles/components/register/register.css";
+
+/* utils */
+@import "../styles/utils/center.css";
+@import "../styles/utils/changeIconMenu.css";
+@import "../styles/utils/none.css";
+@import "../styles/utils/hidden.css";

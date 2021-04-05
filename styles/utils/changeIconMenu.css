@@ -1,0 +1,8 @@
+.changeIconMenu {
+  display: grid;
+  place-items: center;
+}
+
+.changeIconMenu img {
+  content: url("../../resources/images/icon-close.svg");
+}

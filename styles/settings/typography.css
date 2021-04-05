@@ -1,0 +1,24 @@
+:root {
+  /* ESCALA */
+  --fs-base: 62.5%;
+
+  /* TAMAÑOS */
+
+  /* HEADINGS */
+  --fs-h1: var();
+  --fs-h2: var();
+  --fs-h3: var();
+  --fs-text-primary: var();
+  --fs-text-secundary: var();
+  --fs-text-button-high: var();
+  --fs-text-button-small: var();
+  --fs-text-nav: var();
+  --fs-text-nav-header: var();
+
+  /* PESOS */
+  --bold: 700;
+  --medium: 500;
+
+  /* Altura de linea */
+  --line-height: 1.5;
+}

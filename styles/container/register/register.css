@@ -1,0 +1,9 @@
+.\#register > a {
+  margin-right: 4rem;
+}
+
+@media screen and (max-width: 1440px) {
+  .\#register > a {
+    margin-right: 2rem;
+  }
+}

@@ -1,0 +1,24 @@
+.button {
+  color: var(--white);
+  /* font: normal var(--bold) 2rem / var(--line-height) "Poppins bold", sans-serif; */
+  font-weight: var(--bold);
+  font-family: "Poppins bold", sans-serif;
+  background-color: var(--c-bg-button-primary);
+  border: none;
+  min-width: fit-content;
+}
+
+.button:hover {
+  color: var(--white);
+  background-color: var(--c-bg-button-primary-hover);
+  cursor: pointer;
+}
+
+.button--primary {
+  border-radius: 3rem;
+  padding: 1.5rem 2.5rem;
+}
+
+.button--small {
+  font-size: 1.8rem;
+}

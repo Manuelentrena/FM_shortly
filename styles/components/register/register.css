@@ -1,0 +1,11 @@
+.register__login {
+  text-decoration: none;
+  font-weight: var(--bold);
+  font-family: "Poppins bold", sans-serif;
+  color: var(--c-text-nav-header);
+  font-size: 1.8rem;
+}
+
+.register__login:hover {
+  color: var(--c-text-nav-header-hover);
+}
