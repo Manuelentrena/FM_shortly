@@ -1,0 +1,25 @@
+.hero {
+  background-color: var(--c-bg-hero);
+}
+
+.hero__call {
+  width: 87%;
+}
+
+.hero__button {
+  margin-top: 4rem;
+}
+
+@media screen and (max-width: 769px) {
+  .hero__call {
+    width: 100%;
+  }
+  .hero__button {
+    margin: 3rem auto 15rem auto;
+  }
+  .hero__title,
+  .hero__call {
+    text-align: center;
+    margin: 1rem auto;
+  }
+}

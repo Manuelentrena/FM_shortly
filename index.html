@@ -28,7 +28,8 @@
     </style>
   </head>
   <body>
-    <div class="#container []header">
+    <!-- HEADER -->
+    <header class="#container []header">
       <nav class="#nav nav">
         <img
           class="logo logo--header"
@@ -51,27 +52,84 @@
         <a class="register__login" href="#">Login</a>
         <button class="button button--primary button--small">Sign Up</button>
       </div>
-    </div>
-    <div class="input">
-      <div class="input__form">
-        <input
-          class="input__text"
-          type="text"
-          placeholder="Shorten a link here..."
-          id="inputText"
-        />
-        <button class="button" id="btnShort">Shorten it!</button>
+      <div class="#burguer burguer" id="burguerIcon">
+        <div class="burguer__bar1"></div>
+        <div class="burguer__bar2"></div>
+        <div class="burguer__bar3"></div>
       </div>
-      <div class="input__error" id="error"></div>
-    </div>
+      <!-- NAV BURGUER -->
+      <div class="#navBurguer navBurguer" id="navBurguer">
+        <!-- NAV BURGUER BOLCK 1 -->
+        <ul class="navBurguer__block1">
+          <li class="navBurguer__item">
+            <a href="#" class="navBurguer__link">Features</a>
+          </li>
+          <li class="navBurguer__item">
+            <a href="#" class="navBurguer__link">Pricing</a>
+          </li>
+          <li class="navBurguer__item">
+            <a href="#" class="navBurguer__link">Resources</a>
+          </li>
+        </ul>
+        <!-- SEPARATOR -->
+        <div class="navBurguer__line"></div>
+        <!-- NAV BURGUER BLOCK 2 -->
+        <ul class="navBurguer__block2">
+          <li class="navBurguer__item">
+            <a href="#" class="navBurguer__link">Login</a>
+          </li>
+          <button class="button button--primary button--small button--nav">
+            Sign Up
+          </button>
+        </ul>
+      </div>
+    </header>
 
-    <div class="list" id="lista"></div>
+    <!-- HERO -->
+    <section class="#container #hero hero">
+      <div class="#hero__block1">
+        <h1 class="hero__title">More than just shorter links</h1>
+        <p class="hero__call">
+          Build your brand’s recognition and get detailed insights on how your
+          links are performing.
+        </p>
+        <button class="button button--primary button--longer hero__button">
+          Get Started
+        </button>
+      </div>
+      <div class="#her__block2"></div>
+      <!-- INPUT -->
+      <div class="#input">
+        <div class="#input__form">
+          <input
+            class="#input__text"
+            type="text"
+            placeholder="Shorten a link here..."
+            id="inputText"
+          />
+          <button
+            class="button button--secondary button--longer button--input"
+            id="btnShort"
+          >
+            Shorten it!
+          </button>
+          <div class="#input__error" id="error"></div>
+        </div>
+      </div>
+    </section>
+    <!-- STATISTICS -->
+    <section class="#container services">
+      <div class="list" id="lista"></div>
+      <div class="services__header u-center">
+        <h2 class="services__title">Advanced Statistics</h2>
+        <p class="services__text">
+          Track how your links are performing across the web with our advanced
+          statistics dashboard.
+        </p>
+      </div>
+    </section>
 
-    <!-- Features Pricing Resources Login Sign Up More than just shorter links Build
-    your brand’s recognition and get detailed insights on how your links are
-    performing. Get Started Shorten a link here... Shorten It! Advanced
-    Statistics Track how your links are performing across the web with our
-    advanced statistics dashboard. Brand Recognition Boost your brand
+    <!--       Brand Recognition Boost your brand
     recognition with each click. Generic links don’t mean a thing. Branded links
     help instil confidence in your content. Detailed Records Gain insights into
     who is clicking your links. Knowing when and where people engage with your

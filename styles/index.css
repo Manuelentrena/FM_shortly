@@ -20,15 +20,24 @@
 /* Container */
 @import "../styles/container/nav/nav.css";
 @import "../styles/container/register/register.css";
+@import "../styles/container/burguer/icon.css";
+@import "../styles/container/nav/navBurguer.css";
+@import "../styles/container/hero/hero.css";
+@import "../styles/container/input/input.css";
 
 /* Components */
 @import "../styles/components/button/button.css";
 @import "../styles/components/logo/logo.css";
 @import "../styles/components/nav/nav.css";
 @import "../styles/components/register/register.css";
+@import "../styles/components/burguer/icon.css";
+@import "../styles/components/nav/navBurguer.css";
+@import "../styles/components/hero/hero.css";
+@import "../styles/components/input/link.css";
+@import "../styles/components/services/services.css";
 
 /* utils */
 @import "../styles/utils/center.css";
-@import "../styles/utils/changeIconMenu.css";
 @import "../styles/utils/none.css";
 @import "../styles/utils/hidden.css";
+@import "../styles/utils/visible.css";

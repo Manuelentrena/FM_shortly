@@ -1,0 +1,14 @@
+.\#navBurguer {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  margin: 0 2.5rem;
+  display: none;
+}
+
+@media screen and (max-width: 1440px) {
+  .\#navBurguer {
+    display: none;
+  }
+}

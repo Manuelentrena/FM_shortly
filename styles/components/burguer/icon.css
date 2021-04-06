@@ -1,0 +1,22 @@
+.burguer__bar1,
+.burguer__bar2,
+.burguer__bar3 {
+  width: 3.5rem;
+  height: 0.4rem;
+  background-color: var(--c-icon-burguer);
+  margin: 0.36rem 0;
+  transition: 0.4s;
+}
+.change .burguer__bar1 {
+  -webkit-transform: rotate(-45deg) translate(-0.8rem, 0.8rem);
+  transform: rotate(-45deg) translate(-0.8rem, 0.8rem);
+}
+
+.change .burguer__bar2 {
+  opacity: 0;
+}
+
+.change .burguer__bar3 {
+  -webkit-transform: rotate(45deg) translate(-0.8rem, -0.8rem);
+  transform: rotate(45deg) translate(-0.8rem, -0.8rem);
+}

@@ -1,11 +1,14 @@
 .button {
   color: var(--white);
-  /* font: normal var(--bold) 2rem / var(--line-height) "Poppins bold", sans-serif; */
-  font-weight: var(--bold);
   font-family: "Poppins bold", sans-serif;
+  font-weight: var(--bold);
   background-color: var(--c-bg-button-primary);
   border: none;
   min-width: fit-content;
+  width: fit-content;
+  /* MOZILLA */
+  min-width: -moz-fit-content;
+  width: -moz-fit-content;
 }
 
 .button:hover {
@@ -15,10 +18,70 @@
 }
 
 .button--primary {
-  border-radius: 3rem;
+  border-radius: 5rem;
   padding: 1.5rem 2.5rem;
+}
+
+.button--secondary {
+  border-radius: 1rem;
+  padding: 1.5rem 2.5rem;
+  border: 0.3rem solid var(--c-border-button-secondary);
+}
+
+.button--secondary:hover {
+  border-color: var(--c-border-button-secondary-hover);
 }
 
 .button--small {
   font-size: 1.8rem;
+}
+
+.button--link {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 0;
+  padding-right: 0;
+  width: 10rem;
+}
+
+.button--copied {
+  background-color: var(--c-bg-button-secondary-copied);
+  border-color: var(--c-bg-button-secondary-copied);
+}
+.button--copied:hover {
+  background-color: var(--c-bg-button-secondary-copied);
+  border-color: var(--c-bg-button-secondary-copied);
+}
+
+.button--longer {
+  font-size: 2.7rem;
+  padding: 2rem 5rem;
+}
+
+.button--nav {
+  width: 100%;
+  padding: 1rem 0;
+  margin: 1rem 0;
+  font-size: 1.6rem;
+}
+
+@media screen and (max-width: 1440px) {
+  .button--longer {
+    font-size: calc((2.7rem * 75) / 100);
+    padding-top: calc((2rem * 75) / 100);
+    padding-bottom: calc((2rem * 75) / 100);
+    padding-left: calc((5rem * 75) / 100);
+    padding-right: calc((5rem * 75) / 100);
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .button--input {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .button--link {
+    width: 100%;
+  }
 }

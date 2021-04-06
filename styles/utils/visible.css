@@ -1,0 +1,5 @@
+@media screen and (max-width: 769px) {
+  .visible {
+    display: block !important;
+  }
+}

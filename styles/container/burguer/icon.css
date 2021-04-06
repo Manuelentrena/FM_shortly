@@ -1,0 +1,19 @@
+.\#burguer {
+  display: none;
+}
+
+@media screen and (max-width: 1440px) {
+  .\#burguer {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .\#burguer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+}

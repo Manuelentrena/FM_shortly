@@ -1,14 +1,16 @@
 .\[\]header {
-  position: sticky;
+  position: fixed;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
   background-color: var(--c-bg-header-bg);
   padding-top: 6rem;
   padding-bottom: 4rem;
+  z-index: 1;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
   .\[\]header {
     padding-top: 3rem;
     padding-bottom: 1.5rem;

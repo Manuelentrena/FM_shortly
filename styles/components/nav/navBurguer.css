@@ -1,0 +1,34 @@
+.navBurguer {
+  background-color: var(--c-bg-navBurguer);
+  padding: 2.5rem;
+  border-radius: 1rem;
+}
+.navBurguer__block1,
+.navBurguer__block2 {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.navBurguer__block2 {
+}
+.navBurguer__item {
+  text-align: center;
+  padding: 1.3rem 0rem;
+}
+.navBurguer__line {
+  width: 100%;
+  height: 0.1rem;
+  background-color: var(--c-separator-navBurguer);
+  margin: 2rem 0;
+}
+.navBurguer__link {
+  text-decoration: none;
+  font-weight: var(--bold);
+  font-family: "Poppins bold", sans-serif;
+  color: var(--c-text-navBurguer);
+  font-size: 1.6rem;
+}
+
+.navBurguer__link:hover {
+  color: var(--c-text-navBurguer-hover);
+}

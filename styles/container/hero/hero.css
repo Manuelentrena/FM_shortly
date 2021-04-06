@@ -1,0 +1,45 @@
+.\#hero {
+  display: flex;
+  height: 100vh;
+  background-image: url(../../../resources/images/illustration-working.svg);
+  background-repeat: no-repeat;
+  background-size: 55%;
+  background-position: 120% center;
+  position: relative;
+}
+.\#hero__block1 {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+}
+.\#her__block2 {
+  width: 45%;
+}
+
+@media screen and (max-width: 1440px) {
+  .\#hero {
+    background-size: 65%;
+    background-position: 145% center;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .\#hero {
+    padding-top: 8rem;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    background-size: 120vw;
+    background-position: -45% 8rem;
+    height: fit-content;
+  }
+  .\#hero__block1 {
+    width: 100%;
+    margin-bottom: auto;
+  }
+  .\#her__block2 {
+    width: 100%;
+    height: 85vw;
+  }
+}

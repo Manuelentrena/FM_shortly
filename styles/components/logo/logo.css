@@ -10,3 +10,16 @@
 .logo:hover {
   cursor: pointer;
 }
+
+@media screen and (max-width: 1440px) {
+  .logo--header {
+    margin-right: 1rem;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .logo {
+    width: 12rem;
+    height: 3.3rem;
+  }
+}
