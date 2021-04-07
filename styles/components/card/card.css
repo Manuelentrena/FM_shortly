@@ -1,0 +1,13 @@
+.card__text {
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 769px) {
+  .card__text {
+    font-size: 1.6rem;
+  }
+  .card__title,
+  .card__text {
+    text-align: center;
+  }
+}

@@ -4,7 +4,7 @@
   /* Primarios */
   --Cyan: #2acfcf;
   --Cyan-dark: #2f9e9e;
-  --Cyan-light: #6edada;
+  --Cyan-light: #9ae7e7;
   --Dark-Violet: #3b3054; /* FONDO */
   /* Secundarios */
   --Red: #f46262;
@@ -73,6 +73,7 @@
 
   /* SERVICES */
   --c-bg-services: var(--Gray);
+  --c-bg-card: var(--white);
   --c-square-services: var(--Cyan);
   --c-circle-services: var(--Dark-Violet);
 

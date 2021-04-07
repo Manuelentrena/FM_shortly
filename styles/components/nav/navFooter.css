@@ -1,0 +1,95 @@
+/* LISTAS DEL NAV */
+
+.footer__list {
+  margin: 0;
+  padding: 0rem 3rem 3rem 3rem;
+  list-style: none;
+}
+.footer__header {
+  color: var(--c-header-footer);
+  font-weight: var(--bold);
+  font-family: "Poppins bold", sans-serif;
+  font-size: 1.8rem;
+  margin-bottom: 3rem;
+}
+.footer__item {
+  color: var(--c-link-footer);
+  font-weight: var(--medium);
+  font-family: "Poppins bold", sans-serif;
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+  margin: 2rem 0rem;
+}
+
+.footer__item:hover {
+  cursor: pointer;
+  color: var(--c-link-footer-hover);
+}
+
+/* ICONOS */
+
+.footer__icons {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.footer__containerIcon {
+  display: block;
+  display: grid;
+  place-items: center;
+  padding: 0rem 1.7rem 1.7rem 1.7rem;
+}
+
+.footer__icon {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.footer__containerIcon:hover path {
+  fill: var(--c-icon-footer-hover);
+}
+
+/* LOGO */
+
+.footer__picture {
+  display: block;
+  height: 4rem;
+  width: 15rem;
+  cursor: pointer;
+}
+
+.footer__logo {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 950px) {
+  .footer__icons {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .footer__containerIcon:nth-child(1) {
+    padding-left: 0;
+  }
+  .footer__containerIcon {
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .footer__picture {
+    margin: 0rem auto;
+    margin-bottom: 5rem;
+  }
+  .footer__list {
+    padding: 0rem;
+    text-align: center;
+    margin: 0rem 0rem 3rem 0rem;
+  }
+  .footer__containerIcon:nth-child(1) {
+    padding-left: 1.7rem;
+  }
+}

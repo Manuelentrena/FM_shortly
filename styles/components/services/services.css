@@ -1,26 +1,35 @@
 .services {
   background-color: var(--c-bg-services);
-  padding-top: 10rem;
+  padding-top: 12rem;
+  padding-bottom: 15rem;
 }
 
 .services__header {
-  margin: 6rem 0rem;
+  margin: 12rem 0rem 12rem 0rem;
 }
 .services__text {
   width: 50%;
   margin-top: 2rem;
   margin-left: auto;
   margin-right: auto;
+  font-size: 2.3rem;
 }
 
 @media screen and (max-width: 1440px) {
   .services__text {
-    width: 75%;
+    width: 65%;
   }
 }
 
 @media screen and (max-width: 769px) {
+  .services {
+    padding-bottom: 8rem;
+  }
   .services__text {
     width: 100%;
+    font-size: 1.8rem;
+  }
+  .services__header {
+    margin: 8rem 0rem 12rem 0rem;
   }
 }

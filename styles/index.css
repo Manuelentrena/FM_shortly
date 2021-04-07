@@ -15,7 +15,8 @@
 /* Layouts */
 @import "../styles/layouts/header.css";
 @import "../styles/layouts/container.css";
-/* @import "../styles/layouts/principal.css"; */
+@import "../styles/layouts/cards.css";
+@import "../styles/layouts/footer.css";
 
 /* Container */
 @import "../styles/container/nav/nav.css";
@@ -24,6 +25,7 @@
 @import "../styles/container/nav/navBurguer.css";
 @import "../styles/container/hero/hero.css";
 @import "../styles/container/input/input.css";
+@import "../styles/container/card/card.css";
 
 /* Components */
 @import "../styles/components/button/button.css";
@@ -35,6 +37,9 @@
 @import "../styles/components/hero/hero.css";
 @import "../styles/components/input/link.css";
 @import "../styles/components/services/services.css";
+@import "../styles/components/card/card.css";
+@import "../styles/components/banner/banner.css";
+@import "../styles/components/nav/navFooter.css";
 
 /* utils */
 @import "../styles/utils/center.css";

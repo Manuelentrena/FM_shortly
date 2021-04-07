@@ -1,0 +1,70 @@
+.\#cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr) 4rem repeat(4, 1fr) 4rem repeat(4, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  gap: 0px 0px;
+  grid-template-areas:
+    "card1 card1 card1 card1 . . . . . . . . . ."
+    "card1 card1 card1 card1 . card2 card2 card2 card2 . . . . ."
+    "card1 card1 card1 card1 . card2 card2 card2 card2 . card3 card3 card3 card3"
+    "card1 card1 card1 card1 line1 card2 card2 card2 card2 line2 card3 card3 card3 card3"
+    "card1 card1 card1 card1 . card2 card2 card2 card2 . card3 card3 card3 card3"
+    "card1 card1 card1 card1 . card2 card2 card2 card2 . card3 card3 card3 card3"
+    ". . . . . card2 card2 card2 card2 . card3 card3 card3 card3"
+    ". . . . . . . . . . card3 card3 card3 card3";
+}
+
+.\#card1 {
+  grid-area: card1;
+}
+
+.\#card2 {
+  grid-area: card2;
+}
+
+.\#card3 {
+  grid-area: card3;
+}
+
+.\#card__line1 {
+  grid-area: line1;
+}
+.\#card__line2 {
+  grid-area: line2;
+}
+
+@media screen and (max-width: 1200px) {
+  .\#cards {
+    grid-template-columns: repeat(4, 1fr) 4rem repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr) 7rem repeat(6, 1fr);
+    gap: 0px 0px;
+    grid-template-areas:
+      "card1 card1 card1 card1 . . . . ."
+      "card1 card1 card1 card1 . . . . ."
+      "card1 card1 card1 card1 . . . . ."
+      "card1 card1 card1 card1 . card2 card2 card2 card2"
+      "card1 card1 card1 card1 line1 card2 card2 card2 card2"
+      "card1 card1 card1 card1 . card2 card2 card2 card2"
+      ". . . . . card2 card2 card2 card2"
+      "card3 card3 card3 card3 . card2 card2 card2 card2"
+      "card3 card3 card3 card3 line2 card2 card2 card2 card2"
+      "card3 card3 card3 card3 . card2 card2 card2 card2"
+      "card3 card3 card3 card3 . . . . ."
+      "card3 card3 card3 card3 . . . . ."
+      "card3 card3 card3 card3 . . . . .";
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .\#cards {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 10rem 1fr 10rem 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "card1 card1 card1"
+      ". line1 ."
+      "card2 card2 card2"
+      ". line2 ."
+      "card3 card3 card3";
+  }
+}
